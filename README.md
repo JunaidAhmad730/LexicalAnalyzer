@@ -4,4 +4,4 @@ Lexical Analyser also known as a lexer or scanner , is the first phase of a comp
 Main Functions of a Lexical Analyzer (Lexer) are : Tokenization,Ignoring Whitespace & Comments ,Error Handling,Symbol Table Interaction,Efficiency .
 
 
-Try It:https://junaidahmad730.github.io/LexicalAnalyzer/
+Try It:
