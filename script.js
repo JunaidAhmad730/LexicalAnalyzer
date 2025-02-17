@@ -1,3 +1,5 @@
+const keywords = new Set(["sin", "cos", "tan", "log", "ln", "exp", "sqrt"]);
+        
 function analyzeInput() {
     let input = document.getElementById("expression").value.trim();
     let outputDiv = document.getElementById("output");
@@ -5,7 +7,6 @@ function analyzeInput() {
 
     let delimiters = new Set(" +-*/%^(),;><=\"".split(""));
     let operators = new Set("+-*/%^=><".split(""));
-    let keywords = new Set(["sin", "cos", "tan", "log", "ln", "exp", "sqrt"]);
     
     let tokens = [];
     let token = "";
